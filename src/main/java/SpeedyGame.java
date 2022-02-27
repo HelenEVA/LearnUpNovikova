@@ -19,7 +19,7 @@ public class SpeedyGame extends Game {
     @Override
     public boolean isFailed(int speed) {
         if (this.getIsGreenLight()) {
-            //System.out.println("Игрок проходит");
+                //System.out.println("Игрок проходит");
             return true;
         } else {
             if (speed >= maxSpeed) {

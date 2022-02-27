@@ -78,7 +78,7 @@ public class SpeedyGameTest {
         SpeedyGame speedyGame = new SpeedyGame(false, 15);
 
         boolean expected = false;
-        boolean actual = speedyGame.isFailed(7);
+        boolean actual = speedyGame.isFailed(8);
 
         Assertions.assertEquals(expected, actual);
 
