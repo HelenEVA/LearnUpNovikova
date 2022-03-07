@@ -22,10 +22,10 @@ public class Game {
             return true;
         } else {
             if (speed > 0) {
-                //System.out.println("Игрок проиграл");
+//                System.out.println("Игрок проиграл");
                 return true;
             } else {
-                //System.out.println("Игрок проходит");
+//                System.out.println("Игрок проходит");
                 return false;
             }
 

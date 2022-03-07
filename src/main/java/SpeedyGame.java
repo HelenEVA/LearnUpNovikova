@@ -22,7 +22,9 @@ public class SpeedyGame extends Game {
                 //System.out.println("Игрок проходит");
             return true;
         } else {
-            if (speed >= maxSpeed) {
+//            System.out.println(speed + " >= " + maxSpeed);
+
+            if (speed > maxSpeed) {
                 //System.out.println("Игрок проиграл");
                 return true;
             } else {
