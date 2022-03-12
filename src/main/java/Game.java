@@ -19,7 +19,7 @@ public class Game {
 
         if (isGreenLight) {
                 //System.out.println("Игрок проходит");
-            return true;
+            return false;
         } else {
             if (speed > 0) {
 //                System.out.println("Игрок проиграл");

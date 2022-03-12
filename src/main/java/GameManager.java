@@ -10,11 +10,7 @@ public class GameManager {
         for (int speed : speeds) {
             if (!this.myGame.isFailed(speed)){
                 cntRound++;
-            } else if (this.myGame.getIsGreenLight()) {
-                cntRound++;
             }
-
-
         }
         return cntRound;
     }

@@ -20,7 +20,7 @@ public class SpeedyGame extends Game {
     public boolean isFailed(int speed) {
         if (this.getIsGreenLight()) {
                 //System.out.println("Игрок проходит");
-            return true;
+            return false;
         } else {
 //            System.out.println(speed + " >= " + maxSpeed);
 
